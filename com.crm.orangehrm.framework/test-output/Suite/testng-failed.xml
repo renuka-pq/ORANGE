@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.crm.orangehrm.framework.EnterPersonalDetails">
+        <methods>
+          <include name="enterpd"/>
+        </methods>
+      </class> <!-- com.crm.orangehrm.framework.EnterPersonalDetails -->
+      <class name="com.crm.orangehrm.framework.AddEmployee">
+        <methods>
+          <include name="AddEmployeeDetails"/>
+        </methods>
+      </class> <!-- com.crm.orangehrm.framework.AddEmployee -->
+      <class name="com.crm.orangehrm.framework.Deletepim">
+        <methods>
+          <include name="search"/>
+        </methods>
+      </class> <!-- com.crm.orangehrm.framework.Deletepim -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
